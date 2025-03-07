@@ -13,6 +13,7 @@ This C++ program processes a CSV dataset containing COVID-19 case data by countr
 ```sh
 g++ -o covid_processor main.cpp
 ./covid_proceessor confirmed_cases.csv commands.txt
+```
 
 ## File Format
 - confirmed_cases.csv: Contains COVID-19 data with country and state names.
