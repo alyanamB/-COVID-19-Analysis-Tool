@@ -9,7 +9,7 @@ This C++ program processes a CSV dataset containing COVID-19 case data by countr
 - Supports command-based querying.
 
 ## Usage
-### ***Compile the program****
+### ***Compile the program***
 ```sh
 g++ -o covid_processor main.cpp
 ./covid_proceessor confirmed_cases.csv commands.txt
