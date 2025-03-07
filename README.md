@@ -1,2 +1,26 @@
 # -COVID-19-Analysis-Tool
- C++ command-line tool to analyze COVID-19 datasets using STL sets and nested maps.
+This C++ program processes a CSV dataset containing COVID-19 case data by country and state. It provides functionality to: 
+- Store unique country names in a set.
+- Map country and state-level case counts using a nested map.
+- Process commands to retrieve case counts.
+## Features
+- Reads a CSV File and processes country and state COVID-19 case counts.
+- Handles countries with multi-word names.
+- Supports command-based querying.
+
+## Usage
+Compile the program: Shell
+g++ -o covid_processor main.cpp
+Run:
+./covid_proceessor confirmed_cases.csv commands.txt
+
+## File Format
+- confirmed_cases.cvs: Contains COVID-19 data with country and state names
+- commands.txt: Contains commands like the commands_sample.txt provided.
+
+## Technologies Used
+- C++
+- Standard Library (set, map, ifstream, sstream)
+
+## Author 
+Alyana Barbosa
